@@ -9,13 +9,60 @@
 /* Begin PBXBuildFile section */
 		930C08192990DEBD0026CAD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08182990DEBD0026CAD9 /* AppDelegate.swift */; };
 		930C081B2990DEBD0026CAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C081A2990DEBD0026CAD9 /* SceneDelegate.swift */; };
-		930C081D2990DEBD0026CAD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C081C2990DEBD0026CAD9 /* ViewController.swift */; };
-		930C08202990DEBD0026CAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930C081E2990DEBD0026CAD9 /* Main.storyboard */; };
 		930C08222990DEBF0026CAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930C08212990DEBF0026CAD9 /* Assets.xcassets */; };
 		930C08252990DEBF0026CAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930C08232990DEBF0026CAD9 /* LaunchScreen.storyboard */; };
-		930C08302990DEBF0026CAD9 /* PostyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C082F2990DEBF0026CAD9 /* PostyTests.swift */; };
 		930C083A2990DEBF0026CAD9 /* PostyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08392990DEBF0026CAD9 /* PostyUITests.swift */; };
 		930C083C2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C083B2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift */; };
+		930C08492990DF100026CAD9 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08482990DF100026CAD9 /* AppController.swift */; };
+		930C084A2990DF100026CAD9 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08482990DF100026CAD9 /* AppController.swift */; };
+		930C084C2990E0D80026CAD9 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C084B2990E0D80026CAD9 /* PostController.swift */; };
+		930C084D2990E0D80026CAD9 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C084B2990E0D80026CAD9 /* PostController.swift */; };
+		930C08502990F38F0026CAD9 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C084F2990F38F0026CAD9 /* UIViewController+Helper.swift */; };
+		930C08512990F38F0026CAD9 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C084F2990F38F0026CAD9 /* UIViewController+Helper.swift */; };
+		930C08532990F4EA0026CAD9 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08522990F4EA0026CAD9 /* PostsViewController.swift */; };
+		930C08542990F4EA0026CAD9 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08522990F4EA0026CAD9 /* PostsViewController.swift */; };
+		930C08562990F5380026CAD9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08552990F5380026CAD9 /* UIView+Layout.swift */; };
+		930C08572990F5380026CAD9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08552990F5380026CAD9 /* UIView+Layout.swift */; };
+		930C08592990F6BD0026CAD9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08582990F6BD0026CAD9 /* Post.swift */; };
+		930C085A2990F6BD0026CAD9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08582990F6BD0026CAD9 /* Post.swift */; };
+		930C085C2990FAFC0026CAD9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C085B2990FAFC0026CAD9 /* PostTableViewCell.swift */; };
+		930C085D2990FAFC0026CAD9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C085B2990FAFC0026CAD9 /* PostTableViewCell.swift */; };
+		930C085F2990FB8D0026CAD9 /* UITableView+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C085E2990FB8D0026CAD9 /* UITableView+Configure.swift */; };
+		930C08602990FB8D0026CAD9 /* UITableView+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C085E2990FB8D0026CAD9 /* UITableView+Configure.swift */; };
+		930C08622991009A0026CAD9 /* PostsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08612991009A0026CAD9 /* PostsViewControllerTests.swift */; };
+		930C086529910A0C0026CAD9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086429910A0C0026CAD9 /* Resource.swift */; };
+		930C086629910A0C0026CAD9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086429910A0C0026CAD9 /* Resource.swift */; };
+		930C086829910A1E0026CAD9 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086729910A1E0026CAD9 /* URLConvertible.swift */; };
+		930C086929910A1E0026CAD9 /* URLConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086729910A1E0026CAD9 /* URLConvertible.swift */; };
+		930C086B29910A5A0026CAD9 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086A29910A5A0026CAD9 /* NetworkConfiguration.swift */; };
+		930C086C29910A5A0026CAD9 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086A29910A5A0026CAD9 /* NetworkConfiguration.swift */; };
+		930C086E29910A880026CAD9 /* Cause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086D29910A880026CAD9 /* Cause.swift */; };
+		930C086F29910A880026CAD9 /* Cause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C086D29910A880026CAD9 /* Cause.swift */; };
+		930C087129910AB40026CAD9 /* ErrorReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087029910AB40026CAD9 /* ErrorReport.swift */; };
+		930C087229910AB40026CAD9 /* ErrorReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087029910AB40026CAD9 /* ErrorReport.swift */; };
+		930C087429910ADA0026CAD9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087329910ADA0026CAD9 /* NetworkManager.swift */; };
+		930C087529910ADA0026CAD9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087329910ADA0026CAD9 /* NetworkManager.swift */; };
+		930C087729910BD60026CAD9 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087629910BD60026CAD9 /* NetworkManagerTests.swift */; };
+		930C087929910C7D0026CAD9 /* URL+Posty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087829910C7D0026CAD9 /* URL+Posty.swift */; };
+		930C087A29910C7D0026CAD9 /* URL+Posty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087829910C7D0026CAD9 /* URL+Posty.swift */; };
+		930C087C29910F500026CAD9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087B29910F500026CAD9 /* Endpoint.swift */; };
+		930C087D29910F500026CAD9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C087B29910F500026CAD9 /* Endpoint.swift */; };
+		930C0882299115450026CAD9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C0881299115440026CAD9 /* Service.swift */; };
+		930C0883299115450026CAD9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C0881299115440026CAD9 /* Service.swift */; };
+		930C088629911E790026CAD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088529911E790026CAD9 /* User.swift */; };
+		930C088729911E790026CAD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088529911E790026CAD9 /* User.swift */; };
+		930C088929911EC80026CAD9 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088829911EC80026CAD9 /* Address.swift */; };
+		930C088A29911EC80026CAD9 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088829911EC80026CAD9 /* Address.swift */; };
+		930C088C29911EF40026CAD9 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088B29911EF40026CAD9 /* Company.swift */; };
+		930C088D29911EF40026CAD9 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088B29911EF40026CAD9 /* Company.swift */; };
+		930C088F299120E60026CAD9 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088E299120E60026CAD9 /* Geo.swift */; };
+		930C0890299120E60026CAD9 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C088E299120E60026CAD9 /* Geo.swift */; };
+		930C0892299122300026CAD9 /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C0891299122300026CAD9 /* PostDetailsView.swift */; };
+		930C0893299122300026CAD9 /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C0891299122300026CAD9 /* PostDetailsView.swift */; };
+		935EEBAF29913B8800AB8A8F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935EEBAE29913B8800AB8A8F /* Comment.swift */; };
+		935EEBB029913B8800AB8A8F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935EEBAE29913B8800AB8A8F /* Comment.swift */; };
+		935EEBB229913C1A00AB8A8F /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935EEBB129913C1A00AB8A8F /* PostViewModel.swift */; };
+		935EEBB329913C1A00AB8A8F /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935EEBB129913C1A00AB8A8F /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +86,39 @@
 		930C08152990DEBD0026CAD9 /* Posty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Posty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930C08182990DEBD0026CAD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		930C081A2990DEBD0026CAD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		930C081C2990DEBD0026CAD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		930C081F2990DEBD0026CAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		930C08212990DEBF0026CAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930C08242990DEBF0026CAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930C08262990DEBF0026CAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930C082B2990DEBF0026CAD9 /* PostyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		930C082F2990DEBF0026CAD9 /* PostyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostyTests.swift; sourceTree = "<group>"; };
 		930C08352990DEBF0026CAD9 /* PostyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930C08392990DEBF0026CAD9 /* PostyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostyUITests.swift; sourceTree = "<group>"; };
 		930C083B2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		930C08482990DF100026CAD9 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		930C084B2990E0D80026CAD9 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		930C084F2990F38F0026CAD9 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		930C08522990F4EA0026CAD9 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		930C08552990F5380026CAD9 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		930C08582990F6BD0026CAD9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		930C085B2990FAFC0026CAD9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		930C085E2990FB8D0026CAD9 /* UITableView+Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Configure.swift"; sourceTree = "<group>"; };
+		930C08612991009A0026CAD9 /* PostsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewControllerTests.swift; sourceTree = "<group>"; };
+		930C086429910A0C0026CAD9 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		930C086729910A1E0026CAD9 /* URLConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConvertible.swift; sourceTree = "<group>"; };
+		930C086A29910A5A0026CAD9 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		930C086D29910A880026CAD9 /* Cause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cause.swift; sourceTree = "<group>"; };
+		930C087029910AB40026CAD9 /* ErrorReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorReport.swift; sourceTree = "<group>"; };
+		930C087329910ADA0026CAD9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		930C087629910BD60026CAD9 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		930C087829910C7D0026CAD9 /* URL+Posty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Posty.swift"; sourceTree = "<group>"; };
+		930C087B29910F500026CAD9 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		930C0881299115440026CAD9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		930C088529911E790026CAD9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		930C088829911EC80026CAD9 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		930C088B29911EF40026CAD9 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		930C088E299120E60026CAD9 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		930C0891299122300026CAD9 /* PostDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsView.swift; sourceTree = "<group>"; };
+		935EEBAE29913B8800AB8A8F /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		935EEBB129913C1A00AB8A8F /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +171,15 @@
 			children = (
 				930C08182990DEBD0026CAD9 /* AppDelegate.swift */,
 				930C081A2990DEBD0026CAD9 /* SceneDelegate.swift */,
-				930C081C2990DEBD0026CAD9 /* ViewController.swift */,
-				930C081E2990DEBD0026CAD9 /* Main.storyboard */,
+				930C08482990DF100026CAD9 /* AppController.swift */,
+				930C084B2990E0D80026CAD9 /* PostController.swift */,
+				930C08522990F4EA0026CAD9 /* PostsViewController.swift */,
+				930C085B2990FAFC0026CAD9 /* PostTableViewCell.swift */,
+				930C0891299122300026CAD9 /* PostDetailsView.swift */,
+				935EEBB129913C1A00AB8A8F /* PostViewModel.swift */,
+				930C088429911E660026CAD9 /* Models */,
+				930C08632991099C0026CAD9 /* Networking */,
+				930C084E2990F35D0026CAD9 /* Extensions */,
 				930C08212990DEBF0026CAD9 /* Assets.xcassets */,
 				930C08232990DEBF0026CAD9 /* LaunchScreen.storyboard */,
 				930C08262990DEBF0026CAD9 /* Info.plist */,
@@ -113,7 +190,8 @@
 		930C082E2990DEBF0026CAD9 /* PostyTests */ = {
 			isa = PBXGroup;
 			children = (
-				930C082F2990DEBF0026CAD9 /* PostyTests.swift */,
+				930C08612991009A0026CAD9 /* PostsViewControllerTests.swift */,
+				930C087629910BD60026CAD9 /* NetworkManagerTests.swift */,
 			);
 			path = PostyTests;
 			sourceTree = "<group>";
@@ -125,6 +203,45 @@
 				930C083B2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift */,
 			);
 			path = PostyUITests;
+			sourceTree = "<group>";
+		};
+		930C084E2990F35D0026CAD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				930C084F2990F38F0026CAD9 /* UIViewController+Helper.swift */,
+				930C08552990F5380026CAD9 /* UIView+Layout.swift */,
+				930C085E2990FB8D0026CAD9 /* UITableView+Configure.swift */,
+				930C087829910C7D0026CAD9 /* URL+Posty.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		930C08632991099C0026CAD9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				930C0881299115440026CAD9 /* Service.swift */,
+				930C087B29910F500026CAD9 /* Endpoint.swift */,
+				930C086429910A0C0026CAD9 /* Resource.swift */,
+				930C086729910A1E0026CAD9 /* URLConvertible.swift */,
+				930C086D29910A880026CAD9 /* Cause.swift */,
+				930C087029910AB40026CAD9 /* ErrorReport.swift */,
+				930C086A29910A5A0026CAD9 /* NetworkConfiguration.swift */,
+				930C087329910ADA0026CAD9 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		930C088429911E660026CAD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				930C08582990F6BD0026CAD9 /* Post.swift */,
+				930C088529911E790026CAD9 /* User.swift */,
+				930C088829911EC80026CAD9 /* Address.swift */,
+				930C088B29911EF40026CAD9 /* Company.swift */,
+				930C088E299120E60026CAD9 /* Geo.swift */,
+				935EEBAE29913B8800AB8A8F /* Comment.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +350,6 @@
 			files = (
 				930C08252990DEBF0026CAD9 /* LaunchScreen.storyboard in Resources */,
 				930C08222990DEBF0026CAD9 /* Assets.xcassets in Resources */,
-				930C08202990DEBD0026CAD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +374,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930C081D2990DEBD0026CAD9 /* ViewController.swift in Sources */,
+				935EEBB229913C1A00AB8A8F /* PostViewModel.swift in Sources */,
+				930C086B29910A5A0026CAD9 /* NetworkConfiguration.swift in Sources */,
+				930C08562990F5380026CAD9 /* UIView+Layout.swift in Sources */,
+				930C087929910C7D0026CAD9 /* URL+Posty.swift in Sources */,
+				930C08532990F4EA0026CAD9 /* PostsViewController.swift in Sources */,
+				930C085F2990FB8D0026CAD9 /* UITableView+Configure.swift in Sources */,
+				930C087429910ADA0026CAD9 /* NetworkManager.swift in Sources */,
+				930C088929911EC80026CAD9 /* Address.swift in Sources */,
+				930C088C29911EF40026CAD9 /* Company.swift in Sources */,
+				930C087129910AB40026CAD9 /* ErrorReport.swift in Sources */,
+				930C086529910A0C0026CAD9 /* Resource.swift in Sources */,
+				935EEBAF29913B8800AB8A8F /* Comment.swift in Sources */,
+				930C088629911E790026CAD9 /* User.swift in Sources */,
+				930C086E29910A880026CAD9 /* Cause.swift in Sources */,
+				930C088F299120E60026CAD9 /* Geo.swift in Sources */,
+				930C08502990F38F0026CAD9 /* UIViewController+Helper.swift in Sources */,
+				930C0882299115450026CAD9 /* Service.swift in Sources */,
+				930C0892299122300026CAD9 /* PostDetailsView.swift in Sources */,
+				930C087C29910F500026CAD9 /* Endpoint.swift in Sources */,
+				930C08592990F6BD0026CAD9 /* Post.swift in Sources */,
 				930C08192990DEBD0026CAD9 /* AppDelegate.swift in Sources */,
+				930C086829910A1E0026CAD9 /* URLConvertible.swift in Sources */,
+				930C084C2990E0D80026CAD9 /* PostController.swift in Sources */,
 				930C081B2990DEBD0026CAD9 /* SceneDelegate.swift in Sources */,
+				930C08492990DF100026CAD9 /* AppController.swift in Sources */,
+				930C085C2990FAFC0026CAD9 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +407,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930C08302990DEBF0026CAD9 /* PostyTests.swift in Sources */,
+				935EEBB329913C1A00AB8A8F /* PostViewModel.swift in Sources */,
+				930C08512990F38F0026CAD9 /* UIViewController+Helper.swift in Sources */,
+				930C08622991009A0026CAD9 /* PostsViewControllerTests.swift in Sources */,
+				930C087A29910C7D0026CAD9 /* URL+Posty.swift in Sources */,
+				930C086929910A1E0026CAD9 /* URLConvertible.swift in Sources */,
+				930C08572990F5380026CAD9 /* UIView+Layout.swift in Sources */,
+				930C086629910A0C0026CAD9 /* Resource.swift in Sources */,
+				930C088A29911EC80026CAD9 /* Address.swift in Sources */,
+				930C088D29911EF40026CAD9 /* Company.swift in Sources */,
+				930C085D2990FAFC0026CAD9 /* PostTableViewCell.swift in Sources */,
+				930C084A2990DF100026CAD9 /* AppController.swift in Sources */,
+				935EEBB029913B8800AB8A8F /* Comment.swift in Sources */,
+				930C088729911E790026CAD9 /* User.swift in Sources */,
+				930C086F29910A880026CAD9 /* Cause.swift in Sources */,
+				930C0890299120E60026CAD9 /* Geo.swift in Sources */,
+				930C08602990FB8D0026CAD9 /* UITableView+Configure.swift in Sources */,
+				930C0883299115450026CAD9 /* Service.swift in Sources */,
+				930C0893299122300026CAD9 /* PostDetailsView.swift in Sources */,
+				930C087D29910F500026CAD9 /* Endpoint.swift in Sources */,
+				930C084D2990E0D80026CAD9 /* PostController.swift in Sources */,
+				930C087229910AB40026CAD9 /* ErrorReport.swift in Sources */,
+				930C085A2990F6BD0026CAD9 /* Post.swift in Sources */,
+				930C087729910BD60026CAD9 /* NetworkManagerTests.swift in Sources */,
+				930C087529910ADA0026CAD9 /* NetworkManager.swift in Sources */,
+				930C08542990F4EA0026CAD9 /* PostsViewController.swift in Sources */,
+				930C086C29910A5A0026CAD9 /* NetworkConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +461,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		930C081E2990DEBD0026CAD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				930C081F2990DEBD0026CAD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		930C08232990DEBF0026CAD9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +598,9 @@
 				INFOPLIST_FILE = Posty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +626,9 @@
 				INFOPLIST_FILE = Posty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
