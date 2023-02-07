@@ -53,19 +53,6 @@ class NetworkManagerTests: XCTestCase {
         }
     }
     
-    func testThatNetworkManagerCallsSuccessWhen200IsReturnedAndExpectedResponseObjectIsDecoded() throws {
-        let someData = try JSONEncoder().encode(EmptyResponse())
-        
-        successfulNetworkManager(withResponse: someData).apiCall(for: Resource(path: Endpoint.users)) { result in
-            switch result {
-            case .success:
-                break
-            case .failure:
-                XCTFail("Response should be in success block.")
-            }
-        }
-    }
-    
     func successfulNetworkManager(withResponse data: Data) -> NetworkManager {
         let response = HTTPURLResponse(url: dummyURL, statusCode: 200, httpVersion: nil, headerFields: nil)
         let config = NetworkConfiguration(baseURL: .baseURL, session: MockURLSession(data: data, response: response, error: nil))

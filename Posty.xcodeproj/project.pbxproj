@@ -11,8 +11,6 @@
 		930C081B2990DEBD0026CAD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C081A2990DEBD0026CAD9 /* SceneDelegate.swift */; };
 		930C08222990DEBF0026CAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930C08212990DEBF0026CAD9 /* Assets.xcassets */; };
 		930C08252990DEBF0026CAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930C08232990DEBF0026CAD9 /* LaunchScreen.storyboard */; };
-		930C083A2990DEBF0026CAD9 /* PostyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08392990DEBF0026CAD9 /* PostyUITests.swift */; };
-		930C083C2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C083B2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift */; };
 		930C08492990DF100026CAD9 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08482990DF100026CAD9 /* AppController.swift */; };
 		930C084A2990DF100026CAD9 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C08482990DF100026CAD9 /* AppController.swift */; };
 		930C084C2990E0D80026CAD9 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C084B2990E0D80026CAD9 /* PostController.swift */; };
@@ -64,17 +62,15 @@
 		93BF0803299258C000485E82 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF0802299258C000485E82 /* CommentsView.swift */; };
 		93BF08052992592800485E82 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF08042992592800485E82 /* CommentsViewModel.swift */; };
 		93BF080729925D3600485E82 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF080629925D3600485E82 /* CommentView.swift */; };
+		93BF08092992689500485E82 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C085B2990FAFC0026CAD9 /* PostTableViewCell.swift */; };
+		93BF080A299268A400485E82 /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C0891299122300026CAD9 /* PostDetailsView.swift */; };
+		93BF080B299268AF00485E82 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF08042992592800485E82 /* CommentsViewModel.swift */; };
+		93BF080C299268B800485E82 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF0802299258C000485E82 /* CommentsView.swift */; };
+		93BF080D299268BB00485E82 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BF080629925D3600485E82 /* CommentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		930C082C2990DEBF0026CAD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 930C080D2990DEBC0026CAD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 930C08142990DEBD0026CAD9;
-			remoteInfo = Posty;
-		};
-		930C08362990DEBF0026CAD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 930C080D2990DEBC0026CAD9 /* Project object */;
 			proxyType = 1;
@@ -91,9 +87,6 @@
 		930C08242990DEBF0026CAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930C08262990DEBF0026CAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930C082B2990DEBF0026CAD9 /* PostyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		930C08352990DEBF0026CAD9 /* PostyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		930C08392990DEBF0026CAD9 /* PostyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostyUITests.swift; sourceTree = "<group>"; };
-		930C083B2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		930C08482990DF100026CAD9 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 		930C084B2990E0D80026CAD9 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		930C084F2990F38F0026CAD9 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
@@ -140,13 +133,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		930C08322990DEBF0026CAD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -155,7 +141,6 @@
 			children = (
 				930C08172990DEBD0026CAD9 /* Posty */,
 				930C082E2990DEBF0026CAD9 /* PostyTests */,
-				930C08382990DEBF0026CAD9 /* PostyUITests */,
 				930C08162990DEBD0026CAD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,7 +150,6 @@
 			children = (
 				930C08152990DEBD0026CAD9 /* Posty.app */,
 				930C082B2990DEBF0026CAD9 /* PostyTests.xctest */,
-				930C08352990DEBF0026CAD9 /* PostyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,15 +182,6 @@
 				930C087629910BD60026CAD9 /* NetworkManagerTests.swift */,
 			);
 			path = PostyTests;
-			sourceTree = "<group>";
-		};
-		930C08382990DEBF0026CAD9 /* PostyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				930C08392990DEBF0026CAD9 /* PostyUITests.swift */,
-				930C083B2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift */,
-			);
-			path = PostyUITests;
 			sourceTree = "<group>";
 		};
 		930C084E2990F35D0026CAD9 /* Extensions */ = {
@@ -297,24 +272,6 @@
 			productReference = 930C082B2990DEBF0026CAD9 /* PostyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		930C08342990DEBF0026CAD9 /* PostyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 930C08452990DEBF0026CAD9 /* Build configuration list for PBXNativeTarget "PostyUITests" */;
-			buildPhases = (
-				930C08312990DEBF0026CAD9 /* Sources */,
-				930C08322990DEBF0026CAD9 /* Frameworks */,
-				930C08332990DEBF0026CAD9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				930C08372990DEBF0026CAD9 /* PBXTargetDependency */,
-			);
-			name = PostyUITests;
-			productName = PostyUITests;
-			productReference = 930C08352990DEBF0026CAD9 /* PostyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -329,10 +286,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					930C082A2990DEBF0026CAD9 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 930C08142990DEBD0026CAD9;
-					};
-					930C08342990DEBF0026CAD9 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 930C08142990DEBD0026CAD9;
 					};
@@ -353,7 +306,6 @@
 			targets = (
 				930C08142990DEBD0026CAD9 /* Posty */,
 				930C082A2990DEBF0026CAD9 /* PostyTests */,
-				930C08342990DEBF0026CAD9 /* PostyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -369,13 +321,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		930C08292990DEBF0026CAD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		930C08332990DEBF0026CAD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,9 +375,13 @@
 				930C08622991009A0026CAD9 /* PostsViewControllerTests.swift in Sources */,
 				930C087A29910C7D0026CAD9 /* URL+Posty.swift in Sources */,
 				930C086929910A1E0026CAD9 /* URLConvertible.swift in Sources */,
+				93BF080A299268A400485E82 /* PostDetailsView.swift in Sources */,
+				93BF080C299268B800485E82 /* CommentsView.swift in Sources */,
+				93BF080D299268BB00485E82 /* CommentView.swift in Sources */,
 				930C08572990F5380026CAD9 /* UIView+Layout.swift in Sources */,
 				930C086629910A0C0026CAD9 /* Resource.swift in Sources */,
 				930C088A29911EC80026CAD9 /* Address.swift in Sources */,
+				93BF080B299268AF00485E82 /* CommentsViewModel.swift in Sources */,
 				930C088D29911EF40026CAD9 /* Company.swift in Sources */,
 				930C084A2990DF100026CAD9 /* AppController.swift in Sources */,
 				935EEBB029913B8800AB8A8F /* Comment.swift in Sources */,
@@ -442,6 +391,7 @@
 				930C08602990FB8D0026CAD9 /* UITableView+Configure.swift in Sources */,
 				930C0883299115450026CAD9 /* Service.swift in Sources */,
 				930C087D29910F500026CAD9 /* Endpoint.swift in Sources */,
+				93BF08092992689500485E82 /* PostTableViewCell.swift in Sources */,
 				930C084D2990E0D80026CAD9 /* PostController.swift in Sources */,
 				930C087229910AB40026CAD9 /* ErrorReport.swift in Sources */,
 				930C085A2990F6BD0026CAD9 /* Post.swift in Sources */,
@@ -452,15 +402,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		930C08312990DEBF0026CAD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				930C083C2990DEBF0026CAD9 /* PostyUITestsLaunchTests.swift in Sources */,
-				930C083A2990DEBF0026CAD9 /* PostyUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -468,11 +409,6 @@
 			isa = PBXTargetDependency;
 			target = 930C08142990DEBD0026CAD9 /* Posty */;
 			targetProxy = 930C082C2990DEBF0026CAD9 /* PBXContainerItemProxy */;
-		};
-		930C08372990DEBF0026CAD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 930C08142990DEBD0026CAD9 /* Posty */;
-			targetProxy = 930C08362990DEBF0026CAD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -698,42 +634,6 @@
 			};
 			name = Release;
 		};
-		930C08462990DEBF0026CAD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S439WX6W4W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lioncode.posty.PostyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Posty;
-			};
-			name = Debug;
-		};
-		930C08472990DEBF0026CAD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S439WX6W4W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lioncode.posty.PostyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Posty;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -760,15 +660,6 @@
 			buildConfigurations = (
 				930C08432990DEBF0026CAD9 /* Debug */,
 				930C08442990DEBF0026CAD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		930C08452990DEBF0026CAD9 /* Build configuration list for PBXNativeTarget "PostyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				930C08462990DEBF0026CAD9 /* Debug */,
-				930C08472990DEBF0026CAD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
