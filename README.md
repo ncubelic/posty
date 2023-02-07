@@ -13,7 +13,7 @@ For networking I use Foundation's URLSession, but I wrote few wrapper classes, a
 ```swift
 let networkManager = NetworkManager()
  
-var resource = Resource<String>(path: "/path", method: .GET)
+var resource = Resource(path: "/path", method: .GET)
 resource.queryParameters = [
     URLQueryItem(name: "filter", value: "neostar")
 ]
