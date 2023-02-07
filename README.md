@@ -65,3 +65,8 @@ descriptionLabel.layout(using: [
   descriptionLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
 ])
 ```
+
+
+## Testing
+
+You can see example of few Unit tests for the `NetworkManager` and few test which are actually integration test. They are testing some parts of the `PostViewController`. This kind of test are very fast, more like unit tests.
