@@ -36,7 +36,7 @@ struct PostDetailsView: View {
             Text(viewModel.post?.body ?? "")
                 .font(.body)
                 .foregroundColor(.gray)
-            Spacer()
+            CommentsView(viewModel: .init(comments: viewModel.comments))
         }
     }
 }
